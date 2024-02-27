@@ -23,5 +23,5 @@ jobs:
       run: ls -la 
     - name:  check target folder
       run: |
-        cd target
+        cd target/generated-docs
         ls -la
