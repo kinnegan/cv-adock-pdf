@@ -1,5 +1,5 @@
 = Example Manual
-TEST_TEST
+TEST_TEST_TEST
 Doc Writer <doc.writer@example.org>
 v1.0, 2014-09-09
 :example-caption!:
