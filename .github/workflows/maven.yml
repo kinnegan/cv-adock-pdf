@@ -21,3 +21,7 @@ jobs:
       run: mvn
     - name: list dir
       run: ls -la 
+    - name:  check target folder
+      run: |
+        cd target
+        ls -la
