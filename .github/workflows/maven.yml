@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package
+      run: mvn 
     - name: list dir
       run: ls -la 
     - name:  check target folder
@@ -26,7 +26,7 @@ jobs:
         cd target/generated-docs
         ls -la
     - name: Use the Upload Artifact GitHub Action
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with: 
-       name: assets-for-download
-       path: target/generated-docs
+       name: download pdf
+       path: target/generated-docs/example-manual.pdf
